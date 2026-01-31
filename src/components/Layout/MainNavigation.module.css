@@ -1,0 +1,39 @@
+.header {
+    width: 100%;
+    height: 5rem;
+    background-color: #38015c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    box-sizing: border-box;
+  }
+  
+  .logo {
+    font-size: 2rem;
+    color: white;
+  }
+  
+  .header ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .header li {
+    margin: 0 1rem;
+  }
+  
+  .header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .header button {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+  }
+  
