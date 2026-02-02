@@ -45,7 +45,8 @@ const MainNavigation = () => {
   const authCtx = useContext(AuthContext);
 
   const logoutHandler = () => {
-    authCtx.logout();
+    authCtx.logout();        // 1️⃣ clear token from context + localStorage
+    navigate('/auth');       // 2️⃣ redirect to login page
   };
 
   return (
